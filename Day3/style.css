@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient( 45deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 50%, rgb(255, 204, 112) 100% );
+}
+.open-modal-btn {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: wait;
+  font-size: 25px;
+}
+
+.modal {
+    position: absolute;
+    background: rgb(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    /* z-index: -1; */
+}
+
+.modal__inner {
+    width: 400px;
+    position: relative;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    animation: modalShow 0.3s;
+    
+}
+.modal__inner .modal__header{
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.modal__inner .modal__body{
+    padding: 15px;
+}
+.modal__inner .modal__footer{
+    padding: 15px;
+    text-align: right;
+}
+.modal__inner .modal__footer button{
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+}
+.hide {
+    display: none;
+}
+/* Animation */
+@keyframes modalShow {
+    0%{
+        top: -200px;
+        opacity: 0;
+    }
+    50%{
+        top: -50px;
+        opacity: 0.5;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
