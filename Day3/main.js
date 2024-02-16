@@ -10,8 +10,4 @@ function toggleModal (){
 btnOpen.addEventListener('click', toggleModal);
 btnClose.addEventListener('click', toggleModal);
 iconClose.addEventListener('click', toggleModal);
-// modal.addEventListener('click', function(e){
-//     if(e.target === e.currentTarget){
-//         toggleModal();
-//     }
-// });
+console.log("Hello");
