@@ -1,0 +1,10 @@
+[
+    { "maSP": 1, "tenSP":"Sony Xperia 1", "Gia": 1750000, "hangSX": "SONY","hinhAnh": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/274359/samsung-galaxy-a23-den-thumb-600x600.jpg"},
+    { "maSP": 2, "tenSP":"Sony Xperia 2", "Gia": 2750000, "hangSX": "SONY", "hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/309821/realme-11-pro-plus-5g-thumb-600x600.jpeg"},
+    { "maSP": 3, "tenSP":"Sony Xperia Premium", "Gia": 3750000, "hangSX": "SONY", "hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg"},
+    { "maSP": 4, "tenSP":"Google Pixel XL", "Gia": 4750000, "hangSX": "GOOGLE","hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-den-thumb-600x600.jpg"},
+    { "maSP": 5, "tenSP":"Google Pixel 2", "Gia": 5750000, "hangSX": "GOOGLE","hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/307556/TimerThumb/xiaomi-redmi-12-4gb.jpg"},
+    { "maSP": 6, "tenSP":"Samsung Galaxy Not 9", "Gia": 6750000, "hangSX": "SAMSUNG","hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/309847/oppo-a78-xanh-thumb-1-600x600.jpg"},
+    { "maSP": 7, "tenSP":"Samsung Galaxy S10 Plus", "Gia": 7750000, "hangSX": "SAMSUNG","hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/274359/samsung-galaxy-a23-den-thumb-600x600.jpg"},
+    { "maSP": 8, "tenSP":"Samsung Galaxy S10 5G", "Gia": 8750000, "hangSX": "SAMSUNG","hinhAnh":"https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg"}
+]
