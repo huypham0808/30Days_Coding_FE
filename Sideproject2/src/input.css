@@ -17,3 +17,7 @@
 .ct-badge-circle{
     @apply text-xs text-center rounded-full px-1.5;
 }
+
+.ct-topmenu-expanded {
+    @apply absolute top-10 z-50 w-full bg-white;
+}
