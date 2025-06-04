@@ -34,7 +34,6 @@ function populateUI() {
   if (selectedMovie !== null) {
     movieSelect.selectedIndex = selectedMovie;
   }
-  console.log(selectedSeat);
 }
 //Movie select event
 movieSelect.addEventListener("change", (e) => {
@@ -53,3 +52,6 @@ container.addEventListener("click", (e) => {
     updateSelectedCount();
   }
 });
+
+//Initial count and total
+updateSelectedCount();
