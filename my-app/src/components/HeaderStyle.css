@@ -1,0 +1,7 @@
+.todo-header {
+  @apply border-solid
+  border-b-0;
+}
+.todo-Logo {
+  @apply text-blue-800;
+}
