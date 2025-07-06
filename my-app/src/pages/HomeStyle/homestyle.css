@@ -1,0 +1,31 @@
+h1,
+h2 {
+  @apply font-bold 
+  text-lg;
+}
+
+.card {
+  @apply bg-gray-200
+      shadow-sm 
+      rounded-md 
+      py-3 px-4 my-4 
+      relative 
+      overflow-hidden;
+}
+
+.card h3 {
+  @apply font-bold text-gray-700 text-sm 
+      mb-0;
+}
+.card p {
+  @apply my-4 text-sm leading-6;
+}
+.btn-primary {
+  @apply bg-blue-400
+   text-white
+   p-2
+   rounded-md;
+}
+.btn-primary:hover {
+  @apply bg-opacity-90;
+}
